@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a1929;
+  font-family: "Montserrat", serif;
+}
+
+.nav-main {
+  background-color: #0f2942;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.buttons-nav {
+  display: flex;
+  align-items: center;
+}
+
+.buttons-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-nav a:hover {
+  color: #0a1929;
+  background-color: #fff;
+}
+
+/**/
+
+.donwload-button:hover {
+  transform: scale(1.1);
+}
+
+.discord-button:hover {
+  transform: scale(1.1);
+}
+
+.text-mc {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+  margin: 30px 100px;
+  background-color: #0f2942;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+
+  flex-direction: column;
+}
